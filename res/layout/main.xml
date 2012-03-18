@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/attached_clients"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.66"
+        >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.46"
+            android:onClick="Query"
+            android:text="@string/query" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.13"
+            android:onClick="ShowConfig"
+            android:text="@string/configure" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Quit"
+            android:text="@string/exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

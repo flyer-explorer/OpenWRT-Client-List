@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="Settings">
+	<PreferenceCategory android:title="Connection Info">
+		<ListPreference android:entryValues="@array/prefs_con_value"
+		    android:entries="@array/prefs_con_type" 
+		    android:dialogTitle="@string/pref_con_type" 
+		    android:title="@string/pref_con_type" 
+		    android:key="con_type" android:summary="@string/pref_con_type_details" android:defaultValue="UDP"/>
+		<EditTextPreference android:title="@string/pref_router_IP" 
+		    android:defaultValue="kat" 
+		    android:summary="@string/pref_router_IP_details" 
+		    android:key="ip"/>
+		<EditTextPreference android:summary="@string/pref_router_port_details" 
+		    android:title="@string/pref_router_port" 
+		    android:defaultValue="2000" 
+		    android:key="port"/>
+		<EditTextPreference android:title="@string/pref_router_sendcmd" android:summary="@string/pref_router_sendcmd_details" android:key="cmd"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Connectbot Login Info">
+	    <EditTextPreference android:defaultValue="root" 
+	        android:key="username" 
+	        android:title="@string/pref_ssh_username" 
+	        android:summary="@string/pref_username_details">
+	        
+	    </EditTextPreference>
+	    <EditTextPreference android:key="ssh_port" android:title="@string/pref_ssh_port" android:summary="@string/pref_ssh_port_details"/>
+	    <EditTextPreference android:key="telnet_port" android:title="@string/pref_telnet_port" android:summary="@string/pref_telnet_port_details"/>
+	</PreferenceCategory>
+</PreferenceScreen>

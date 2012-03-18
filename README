@@ -1,0 +1,1 @@
+Android Utility that can poke openwrt routers and display a list of attached clients with several options to perform on those clients (ie, SSH, telnet,  HTTP, or HTTPs)

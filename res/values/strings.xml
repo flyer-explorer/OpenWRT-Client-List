@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whose Connected?</string>
+    <string name="query">Probe for Clients</string>
+    <string name="hostname">Hostname</string>
+    <string name="ipaddr">IP</string>
+    <string name="macaddr">MAC</string>
+    <string name="detailed_info">Detailed Host Information</string>
+    <string name="back">Back</string>
+    <string name="expiry">Lease Expiry (s)</string>
+    <string name="time">Lease Expiry</string>
+    <string name="exit">Quit</string>
+    <string name="autofill">__AUTOFILLED__</string>
+    
+    <string name="configure">Config</string><string-array name="prefs_con_type">
+        <item>Broadcast UDP</item>
+        <item >Unicast UDP</item>
+        <item>TCP</item>
+        <item >Debug (no connection)</item>
+    </string-array>
+    <string-array name="prefs_con_value">
+        <item>broadcast</item>
+        <item>unicast</item>
+        <item >tcp</item>
+        <item >debug</item>
+    </string-array>
+    <string name="pref_con_type">Connection Type</string>
+    <string name="pref_con_type_details">Connection Type (Broadcast UDP, Unicast UDP, or TCP)</string><string name="pref_router_IP">Router Hostname | IP</string>
+    <string name="pref_router_IP_details">IP Address of the Router (used for TCP and non-multicast UDP)</string>
+    <string name="pref_router_port">Router Port</string>
+    <string name="pref_router_port_details">Port to either connect to via TCP, listen from on UDP, and to send the Cmd String (if any)</string>
+    <string name="pref_router_sendcmd" >Cmd String to Query Router</string><string name="pref_router_sendcmd_details">Enter here, if any, the string &quot;command&quot; that must be sent to router to spit out the DHCP lease info.  If blank, it will not be used.</string><string name="pref_ssh_username">Default SSH User</string>
+    <string name="pref_username_details">Default Username to attempt to login via connect bot.</string>
+    <string name="pref_ssh_port">SSH Port</string><string name="pref_ssh_port_details">SSH connect port  if blank, defaults to 22</string><string name="pref_telnet_port">Telnet Port</string><string name="pref_telnet_port_details">SSH connect port  if blank, defaults to 23</string><string name="ip_diag_ssh">SSH</string>
+    <string name="ip_diag_http">HTTP</string>
+    <string name="ip_diag_https">HTTPS</string><string name="ip_dia_telnet">Telnet</string>
+    <string name="blank_string"></string>
+    
+
+</resources>
